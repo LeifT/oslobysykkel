@@ -1,4 +1,4 @@
-package innlevering.enteties;
+package innlevering.entities;
 
 public class StationStatus {
     private long lastUpdated;

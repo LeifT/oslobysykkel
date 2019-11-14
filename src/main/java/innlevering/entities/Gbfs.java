@@ -1,4 +1,4 @@
-package innlevering.enteties;
+package innlevering.entities;
 
 import java.util.List;
 
