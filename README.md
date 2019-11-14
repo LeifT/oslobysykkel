@@ -2,7 +2,7 @@
 
 Enkel rest-applikasjon som tilbyr data konsumert fra https://oslobysykkel.no/apne-data/sanntid 
 
-### Tilgjengelige endepunkter 
+## Tilgjengelige endepunkter 
 Henter alle stasjoner
 ```
 /
@@ -19,8 +19,13 @@ Henter alle stasjoner
 ```
 /id/{station_id}
 ```
-### Starte applikasjonen
+## Teknologi
+* Java 12.0.1
+* Apache Maven 3.6.2 
+
+## Starte applikasjonen
 ```
+cd .\oslobysykkel\
 mvn clean install
 java -jar .\target\oslobysykkel-1.0-SNAPSHOT.jar
 ```
