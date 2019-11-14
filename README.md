@@ -21,6 +21,6 @@ Henter alle stasjoner
 ```
 ### Starte applikasjonen
 ```
-mvn clean compile
+mvn clean install
 java -jar .\target\oslobysykkel-1.0-SNAPSHOT.jar
 ```
